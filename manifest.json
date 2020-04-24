@@ -5,7 +5,11 @@
     
     "content_scripts": [
         {
+<<<<<<< HEAD
           "matches": ["https://www.supremenewyork.com/checkout", "https://www.supremenewyork.com/shop*"],
+=======
+          "matches": ["https://www.supremenewyork.com/checkout"],
+>>>>>>> 5bfd66cc6bd9b0b750e80c3820ba6c27e1065b64
           "js": ["jquery-3.4.1.min.js","content.js"]
         }
       ],
