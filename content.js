@@ -1,92 +1,257 @@
-<<<<<<< HEAD
-var _0x194b=['#order_billing_city','#clear','submit','#colorreq','state','addEventListener','#order_email','#type','orcer','windows','expyear','order_tel','#order_billing_name','clearInterval','storage','#credit_card_year','#credit_card_month','href','order_billing_zip','#order_billing_zip','#bo','submit_req','expmon','button[data-style-name=\x27','data-style-name','includes','ready','create','#cart-addf','getElementById','order_billing_city','email','reload','#order_tel','#rnsnckrn','btn','a.name-link','country','indexOf','order_billing_country','order_email','product','checked','attr','credit_card_year','https://www.supremenewyork.com/shop/all/','button.selected','zip','#btn','open','clear','order_billing_name','ccnum','error','get','color','name','click','val','credit_card_month','order_billing_state','#productreq','type','text','rnsnckrn','/shop','https://www.supremenewyork.com/checkout','clearTimeout','address','phone','runtime','set','.protect','location','#submit_req','city','value','.next','cvv','local','tabs'];(function(_0x262ee2,_0x194bcc){var _0x1ff747=function(_0x1acf3e){while(--_0x1acf3e){_0x262ee2['push'](_0x262ee2['shift']());}};_0x1ff747(++_0x194bcc);}(_0x194b,0x104));var _0x1ff7=function(_0x262ee2,_0x194bcc){_0x262ee2=_0x262ee2-0x0;var _0x1ff747=_0x194b[_0x262ee2];return _0x1ff747;};$(document)[_0x1ff7('0x9')](function(){_0x30ea40();_0xf54739();_0x34be61();function _0x34be61(){$(_0x1ff7('0x39'))[_0x1ff7('0x28')](function(){document[_0x1ff7('0xc')](_0x1ff7('0x4'))[_0x1ff7('0x45')](_0x1ff7('0x28'),chrome[_0x1ff7('0x3f')]['reload']());chrome[_0x1ff7('0x4e')]['local'][_0x1ff7('0x36')]({'product':$(_0x1ff7('0x2c'))[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'color':$(_0x1ff7('0x43'))[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'type':$(_0x1ff7('0x47'))[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x25')]([_0x1ff7('0x2d')],function(_0xda316){var _0x4287a4=_0x1ff7('0x1c')+_0xda316[_0x1ff7('0x2d')];chrome[_0x1ff7('0x49')][_0x1ff7('0xa')]({'url':_0x4287a4});});});}function _0x30ea40(){chrome['storage']['local'][_0x1ff7('0x25')]([_0x1ff7('0x27')],function(_0x11405b){document[_0x1ff7('0xc')](_0x1ff7('0x22'))[_0x1ff7('0x3b')]=_0x11405b[_0x1ff7('0x27')];});chrome[_0x1ff7('0x4e')]['local']['get']([_0x1ff7('0xe')],function(_0x48b570){document[_0x1ff7('0xc')]('order_email')[_0x1ff7('0x3b')]=_0x48b570['email'];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x25')]([_0x1ff7('0x34')],function(_0x3f8e8a){document[_0x1ff7('0xc')](_0x1ff7('0x4b'))[_0x1ff7('0x3b')]=_0x3f8e8a[_0x1ff7('0x34')];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')]['get']([_0x1ff7('0x33')],function(_0x1f0232){document[_0x1ff7('0xc')]('bo')[_0x1ff7('0x3b')]=_0x1f0232[_0x1ff7('0x33')];});chrome[_0x1ff7('0x4e')]['local']['get'](['zip'],function(_0xb38cd4){document[_0x1ff7('0xc')](_0x1ff7('0x1'))[_0x1ff7('0x3b')]=_0xb38cd4[_0x1ff7('0x1e')];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x25')](['city'],function(_0x4c2bbb){document[_0x1ff7('0xc')](_0x1ff7('0xd'))[_0x1ff7('0x3b')]=_0x4c2bbb[_0x1ff7('0x3a')];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x25')]([_0x1ff7('0x44')],function(_0x30fec5){document[_0x1ff7('0xc')]('order_billing_state')[_0x1ff7('0x3b')]=_0x30fec5[_0x1ff7('0x44')];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')]['get']([_0x1ff7('0x14')],function(_0x43e69c){document[_0x1ff7('0xc')](_0x1ff7('0x16'))['value']=_0x43e69c[_0x1ff7('0x14')];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x25')]([_0x1ff7('0x23')],function(_0x595019){document['getElementById'](_0x1ff7('0x2f'))[_0x1ff7('0x3b')]=_0x595019[_0x1ff7('0x23')];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x25')]([_0x1ff7('0x5')],function(_0x5c12dc){document['getElementById'](_0x1ff7('0x2a'))[_0x1ff7('0x3b')]=_0x5c12dc[_0x1ff7('0x5')];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')]['get'](['expyear'],function(_0x1d65f2){document[_0x1ff7('0xc')](_0x1ff7('0x1b'))['value']=_0x1d65f2[_0x1ff7('0x4a')];});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')]['get'](['cvv'],function(_0x4c6298){document['getElementById'](_0x1ff7('0x48'))[_0x1ff7('0x3b')]=_0x4c6298[_0x1ff7('0x3d')];});}function _0xf54739(){$(_0x1ff7('0x1f'))[_0x1ff7('0x28')](function(){document[_0x1ff7('0xc')](_0x1ff7('0x12'))[_0x1ff7('0x45')](_0x1ff7('0x28'),chrome[_0x1ff7('0x3f')]['reload']());chrome['storage'][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'name':document[_0x1ff7('0xc')](_0x1ff7('0x22'))['value']=$(_0x1ff7('0x4c'))[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'email':document[_0x1ff7('0xc')](_0x1ff7('0x17'))['value']=$(_0x1ff7('0x46'))[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')]['set']({'phone':document['getElementById'](_0x1ff7('0x4b'))[_0x1ff7('0x3b')]=$(_0x1ff7('0x10'))[_0x1ff7('0x29')]()},function(){});chrome['storage'][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'address':document['getElementById']('bo')['value']=$(_0x1ff7('0x3'))[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'zip':document[_0x1ff7('0xc')](_0x1ff7('0x1'))[_0x1ff7('0x3b')]=$(_0x1ff7('0x2'))[_0x1ff7('0x29')]()},function(){});chrome['storage'][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'city':document[_0x1ff7('0xc')](_0x1ff7('0xd'))[_0x1ff7('0x3b')]=$(_0x1ff7('0x40'))[_0x1ff7('0x29')]()},function(){});chrome['storage'][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'state':document[_0x1ff7('0xc')](_0x1ff7('0x2b'))[_0x1ff7('0x3b')]=$('#order_billing_state')['val']()},function(){});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'country':document[_0x1ff7('0xc')](_0x1ff7('0x16'))[_0x1ff7('0x3b')]=$('#order_billing_country')[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x36')]({'ccnum':document[_0x1ff7('0xc')](_0x1ff7('0x2f'))[_0x1ff7('0x3b')]=$(_0x1ff7('0x11'))[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')]['local'][_0x1ff7('0x36')]({'expmon':document[_0x1ff7('0xc')](_0x1ff7('0x2a'))['value']=$(_0x1ff7('0x50'))[_0x1ff7('0x29')]()},function(){});chrome['storage']['local'][_0x1ff7('0x36')]({'expyear':document[_0x1ff7('0xc')]('credit_card_year')[_0x1ff7('0x3b')]=$(_0x1ff7('0x4f'))[_0x1ff7('0x29')]()},function(){});chrome[_0x1ff7('0x4e')]['local']['set']({'cvv':document[_0x1ff7('0xc')](_0x1ff7('0x48'))[_0x1ff7('0x3b')]=$('#orcer')[_0x1ff7('0x29')]()},function(){});});}$(_0x1ff7('0x41'))[_0x1ff7('0x28')](function(){document[_0x1ff7('0xc')](_0x1ff7('0x4'))[_0x1ff7('0x45')]('click',chrome[_0x1ff7('0x3f')][_0x1ff7('0xf')]());chrome['storage'][_0x1ff7('0x3e')][_0x1ff7('0x21')](function(){var _0x48bf66=chrome[_0x1ff7('0x35')]['lastError'];if(_0x48bf66){console[_0x1ff7('0x24')](_0x48bf66);}});});_0x19c521();if(window[_0x1ff7('0x38')]['href'][_0x1ff7('0x15')](_0x1ff7('0x30'))>0x0){var _0x39f9e5;var _0x35a101;_0x39f9e5=setTimeout(function(){window[_0x1ff7('0x38')][_0x1ff7('0xf')](0x1);},0x64);_0x35a101=setInterval(_0xbc5ff3(),0x64);setTimeout(function(){window[_0x1ff7('0x38')]['href']=$(_0x1ff7('0x13'))[_0x1ff7('0x1a')](_0x1ff7('0x0')),0x1f4;});function _0xbc5ff3(){chrome[_0x1ff7('0x4e')][_0x1ff7('0x3e')][_0x1ff7('0x25')]([_0x1ff7('0x18'),_0x1ff7('0x26')],function(_0x4e055a){var _0x58dd33=$(_0x1ff7('0x1d'))[_0x1ff7('0x1a')](_0x1ff7('0x7'));var _0x7a8f8f=$(_0x1ff7('0x37'))[_0x1ff7('0x2e')]();$('.free_shipping')[_0x1ff7('0x2e')]('Loading\x20next\x20item..');if(_0x7a8f8f[_0x1ff7('0x8')](_0x4e055a[_0x1ff7('0x18')])&&_0x58dd33==_0x4e055a[_0x1ff7('0x26')]){window[_0x1ff7('0x4d')](_0x35a101);window['clearTimeout'](_0x39f9e5);$(_0x1ff7('0xb'))[_0x1ff7('0x42')]();var _0xb97ad4=setTimeout(_0x28f781(),0x1f4);window[_0x1ff7('0x32')](_0xb97ad4);}else if(_0x7a8f8f[_0x1ff7('0x8')](_0x4e055a[_0x1ff7('0x18')])&&_0x58dd33!=_0x4e055a[_0x1ff7('0x26')]){$(_0x1ff7('0x6')+_0x4e055a[_0x1ff7('0x26')]+'\x27]')[_0x1ff7('0x28')]();}else{$(_0x1ff7('0x3c'))[0x0][_0x1ff7('0x28')]();}});}}function _0x28f781(){window[_0x1ff7('0x20')](_0x1ff7('0x31'));}function _0x19c521(){$('#order_terms')[_0x1ff7('0x1a')](_0x1ff7('0x19'),!![]);}});
-=======
 
 $( document ).ready(function() {
+  ReadfromMemory()
+  WritetoMemory()
 
-    if (window.location.href.indexOf('/shop') > 0) {
+
+ProductcolorRequest()
+
+function ProductcolorRequest(){
+  $("#submit_req").click(function(){
+    document.getElementById('submit_req').addEventListener('click', chrome.tabs.reload());
+    chrome.storage.local.set({'product': $("#productreq").val()}, function() {
+    });
+    chrome.storage.local.set({'color': $("#colorreq").val()}, function() {
+    });
+    chrome.storage.local.set({'type': $("#type").val()}, function() {
+    });
+    chrome.storage.local.get(['type'], function(result) {
+    
+      var r2 = "https://www.supremenewyork.com/shop/all/"+result.type
+      chrome.tabs.create({ url: r2 });
+
+    });
+
+
+
+
 
     
-      var i = setInterval(next(), 300)
-    //var s = setTimeout(function() {
-     //  location.reload();
-   //}, 400);        
-   var timer = function() {
-     window.location.reload(true);
-   };
-   var timeout = setTimeout(timer, 500);  
+    
+});
+}
+
+
+
+
+
+
+  function ReadfromMemory(){
 
  
 
+
+   
+    //name read
+      chrome.storage.local.get(['name'], function(result) {
+      document.getElementById("order_billing_name").value = result.name
+    });
+    //email read
+    chrome.storage.local.get(['email'], function(result) {
+      document.getElementById("order_email").value = result.email
+    });
+  //phone read
+    chrome.storage.local.get(['phone'], function(result) {
+      document.getElementById("order_tel").value = result.phone
+    });
+  //address read
+    chrome.storage.local.get(['address'], function(result) {
+      document.getElementById("bo").value = result.address
+    });
+  //zip read
+    chrome.storage.local.get(['zip'], function(result) {
+      document.getElementById("order_billing_zip").value = result.zip
+    });
+  //city read
+  chrome.storage.local.get(['city'], function(result) {
+    document.getElementById("order_billing_city").value = result.city
+  });
+  //state read
+  chrome.storage.local.get(['state'], function(result) {
+    document.getElementById("order_billing_state").value = result.state
+  });
+  //country read
+  chrome.storage.local.get(['country'], function(result) {
+    document.getElementById("order_billing_country").value = result.country
+  });
+  //credit card read
+  chrome.storage.local.get(['ccnum'], function(result) {
+    document.getElementById("rnsnckrn").value = result.ccnum
+  });
+  //exp mon read
+  chrome.storage.local.get(['expmon'], function(result) {
+    document.getElementById("credit_card_month").value = result.expmon
+  });
+  //exp year read
+  chrome.storage.local.get(['expyear'], function(result) {
+    document.getElementById("credit_card_year").value = result.expyear
+  });
+  //cvv read
+  chrome.storage.local.get(['cvv'], function(result) {
+    document.getElementById("orcer").value = result.cvv
+  });
+}
+
+
+function WritetoMemory(){
+  $('#btn').click(function(){
+
+      //reload page once save data is hit
+      document.getElementById('btn').addEventListener('click', chrome.tabs.reload());
+      //alert("saving")
+     
+     
+  //reload the page on a timer every 1/100th of a second
+   
+   // chrome.storage.local.set({'product': }, function() {
+  //   });
+
+  //  chrome.storage.local.set({'color': }, function(c) {
+  //   });
+    
+  //name write
+      chrome.storage.local.set({'name': document.getElementById("order_billing_name").value = $("#order_billing_name").val()}, function() {
+      });
+  //email write
+      chrome.storage.local.set({'email': document.getElementById("order_email").value = $("#order_email").val()}, function() {
+      });
+  //phone write
+      chrome.storage.local.set({'phone': document.getElementById("order_tel").value = $("#order_tel").val()}, function() {
+      });
+  //address write
+      chrome.storage.local.set({'address': document.getElementById("bo").value = $("#bo").val()}, function() {
+      });
+  //zip write
+      chrome.storage.local.set({'zip': document.getElementById("order_billing_zip").value = $("#order_billing_zip").val()}, function() {
+      });
+  //city write
+      chrome.storage.local.set({'city': document.getElementById("order_billing_city").value = $("#order_billing_city").val()}, function() {
+      });
+  //state write
+      chrome.storage.local.set({'state': document.getElementById("order_billing_state").value = $("#order_billing_state").val()}, function() {
+      });
+  //country write
+      chrome.storage.local.set({'country': document.getElementById("order_billing_country").value = $("#order_billing_country").val()}, function() {
+      });  
+  //credit card write
+      chrome.storage.local.set({'ccnum': document.getElementById("rnsnckrn").value = $("#rnsnckrn").val()}, function() {
+      }); 
+  //exp month write
+      chrome.storage.local.set({'expmon': document.getElementById("credit_card_month").value = $("#credit_card_month").val()}, function() {
+      });
+  //exp year write
+      chrome.storage.local.set({'expyear': document.getElementById("credit_card_year").value = $("#credit_card_year").val()}, function() {
+      });
+  //cvv write
+      chrome.storage.local.set({'cvv': document.getElementById("orcer").value = $("#orcer").val()}, function() {
+      }); 
+
+
+
+  });
+}
+
+
+//clear all data
+$("#clear").click(function(){
+  document.getElementById('submit_req').addEventListener('click', chrome.tabs.reload());
+
+  chrome.storage.local.clear(function() {
+    var error = chrome.runtime.lastError;
+    if (error) {
+        console.error(error);
+    }
+});
+
+})
+
+  //call checkout function
+  checkout()
+  
+  //only applies if URL has /shop in it
+    if (window.location.href.indexOf('/shop') > 0) {
+
+  //loop function next every 1/100th of a second
+
+  var timer;
+  var i;
+    timer = setTimeout(function(){
+      window.location.reload(1);
+        }, 100);
+    
+      i = setInterval(next(), 100);
+
+
+      setTimeout(function () {
+        window.location.href = $("a.name-link").attr('href');
+    }, 50);
+  
+    
+ 
+
   function next(){
+    chrome.storage.local.get(['product', 'color'], function(result) {
 
-    var pname = $(".protect").text()
-    $(".free_shipping").text("Loading next item..")
-      if(pname.includes("Valentine")){
-        clearTimeout(timeout);
+        //window.clearInterval(i);
+        //window.clearTimeout(timer);
 
-        window.clearInterval(i);
-        document.getElementById('s').selectedIndex=1;
+    
+        //define the current color
+        var color = $("button.selected").attr('data-style-name');
+        //define the current name
+        var pname = $(".protect").text()
+
+      
         
-        clearTimeout(timeout);
+        $(".free_shipping").text("Loading next item..")
+          if(pname.includes(result.product) && color == result.color){
 
+            //clear timeouts
+            window.clearInterval(i);
+            window.clearTimeout(timer);
+            //add to cart
+            $('#cart-addf').submit()
+            //launch new window to checkout
+            var ti = setTimeout(launchwindow(), 500)
+            //clear the timeout
+            window.clearTimeout(ti)
+            
 
+            //if name is correct but color is not:
+          }else if(pname.includes(result.product) && color != result.color){
+            //move to next color
+            $("button[data-style-name='"+result.color+"']").click()
 
-        $('#cart-addf').submit()
+            //if color is correct but name is not:
+          }else {
+            //move to next item
+            $('.next')[0].click();
+
+          }
         
-
-        window.open("https://www.supremenewyork.com/shop/cart")
-
-
-
-      }else{
-          
-        
-        
-        $('.next')[0].click();
-
-      }
-      clearTimeout(timeout);
-
+      });
+      
     } 
 
   }
 
      
+  //go to checkout page
+  function launchwindow(){
+    window.open("https://www.supremenewyork.com/checkout")
+  }
 
+  //checkout filler
+  function checkout(){
+    //if (window.location.href.indexOf('/checkout') > 0) {
+      
+        $('#order_terms').attr('checked',true)
 
-      if (window.location.href.indexOf('/checkout') > 0) {
-        jQuery(document).ready(function(){
+        //$("#checkout_form").submit()
 
-          clearTimeout(timeout);
+    }
 
-          
-
-
-          
-
-            //filler
-            document.getElementById("order_billing_name").value = "REPLACE_ME"
-            document.getElementById("order_email").value = "REPLACE_ME@GMAIL.COM"
-            document.getElementById("order_tel").value = "00000000"
-            document.getElementById("bo").value = "REPLACE THIS ADDRESS"
-            document.getElementById("order_billing_zip").value = "REPLACE THIS ZIPCODE"
-            document.getElementById("order_billing_city").value = "REPLACE THIS CITY"
-            document.getElementById('order_billing_state').selectedIndex=20;//replace 20 with state number (0=1)
-            document.getElementById("rnsnckrn").value = "REPLACE THIS CREDIT CARD NUMBER"
-            document.getElementById("orcer").value = "REPLACE THIS CREDIT CARD CVV"
-            document.getElementById('credit_card_month').selectedIndex=1;
-            document.getElementById('credit_card_year').selectedIndex=3;//replace 3 with card value (3=2022)
-            $('#order_terms').attr('checked',true)
-
-
-            
-        });
     
-
-  } 
 });
 
 
-//          //"matches": ["https://www.supremenewyork.com/checkout", "https://www.supremenewyork.com/shop/jackets/pk2tbsagx/z60yvnd1f", "https://www.supremenewyork.com/shop/jackets/yqaoeynuh", "https://www.supremenewyork.com/shop/jackets/na6obt059", "https://www.supremenewyork.com/shop/jackets/rtzg8fjol", "https://www.supremenewyork.com/shop/jackets/l7zb3rwls", "https://www.supremenewyork.com/shop/shirts/nrla6isyw/rtkhre1sx"],
->>>>>>> c3bf6163a07bb5eb5a21e2da4efcf85c60348323
