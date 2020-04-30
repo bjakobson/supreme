@@ -1,30 +1,16 @@
 {
-<<<<<<< HEAD
     "name": "Supreme Cop",
     "version": "3.0",
-=======
-    "name": "autofill supreme",
-    "version": "1.0",
->>>>>>> c3bf6163a07bb5eb5a21e2da4efcf85c60348323
     "manifest_version": 2,
     
     "content_scripts": [
         {
-<<<<<<< HEAD
           "matches": ["https://www.supremenewyork.com/*"],
 
-=======
-<<<<<<< HEAD
-          "matches": ["https://www.supremenewyork.com/checkout", "https://www.supremenewyork.com/shop*"],
-=======
-          "matches": ["https://www.supremenewyork.com/checkout"],
->>>>>>> 5bfd66cc6bd9b0b750e80c3820ba6c27e1065b64
->>>>>>> c3bf6163a07bb5eb5a21e2da4efcf85c60348323
           "js": ["jquery-3.4.1.min.js","content.js"]
         }
       ],
 
-<<<<<<< HEAD
       "icons": {
         "128": "img.png",
         "64": "img_64x64.png"
@@ -41,9 +27,5 @@
 
  
     "permissions": ["storage", "activeTab","declarativeContent"]
-=======
- 
-    "permissions": ["storage","activeTab","declarativeContent"]
->>>>>>> c3bf6163a07bb5eb5a21e2da4efcf85c60348323
 
 }
