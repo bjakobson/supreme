@@ -1,0 +1,36 @@
+{
+    "name": "Supreme Cop",
+    "version": "7.0",
+    "manifest_version": 2,
+    
+    "content_scripts": [
+        {
+          "matches": ["https://www.supremenewyork.com/*"],
+
+          "js": ["jquery-3.4.1.min.js","c2.js"]
+        }
+      ],
+
+      "icons": {
+        "128": "img.png",
+        "64": "img_64x64.png"
+      },
+
+      "browser_action": {
+        "default_popup": "popup.html"
+
+      },
+
+      "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+
+      
+      
+    
+
+ 
+    "permissions": ["storage", "activeTab","declarativeContent"]
+
+}
