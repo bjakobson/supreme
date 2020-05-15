@@ -127,9 +127,17 @@ span.price {
             <div class="col-50">
                 <h3>Product Information</h3>
                 <label for="fname">Product Name (Keywords OK)</label>
-                <input type="text" id="productreq" value="Cotton" placeholder="Box Logo">
+                <input type="text" id="productreq" placeholder="Box Logo">
                 <label for="email"> Color</label>
-                <input type="text" id="colorreq" value="Orange" placeholder="Black">
+                <input type="text" id="colorreq" placeholder="Black">
+                <div class="size"><label class="size">Product Size</label><select name="size" id="size">
+                  <option selected="selected" value="">none</option>
+                  <option value="Small">Small</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Large">Large</option>
+                  <option value="XLarge">XLarge</option>
+                </select></div>
+                <br /> 
                 <div class="type"><label class="type">Product type</label><select name="type" id="type">
                   <option selected="selected" value="jackets">jackets</option>
                   <option value="shirts">shirts</option>
@@ -145,7 +153,7 @@ span.price {
                   <option value="skate">skate</option>
                 </select></div>
             </div>
-                <button id="submit_req">Update Bot</button>
+                <button id="submit_req">Run Bot</button>
 
                 
     
