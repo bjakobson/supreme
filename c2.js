@@ -4,6 +4,7 @@ $( document ).ready(function() {
     ReadfromMemory()
     ProductcolorRequest()
     Findproduct()
+    clearData()
 
 
 })
@@ -116,6 +117,8 @@ function ProductcolorRequest(){
         });
         chrome.storage.local.set({'type': $("#type").val()}, function() {
         });
+        chrome.storage.local.set({'size': $("#size").val()}, function() {
+        });
 
         chrome.storage.local.get(['type'], function(result) {
         
@@ -126,19 +129,20 @@ function ProductcolorRequest(){
     });
 }
 
-
+function clearData(){
 //clear all data
-$("#clear").click(function(){
-  document.getElementById('submit_req').addEventListener('click', chrome.tabs.reload());
+  $("#clear").click(function(){
+    document.getElementById('clear').addEventListener('click', chrome.tabs.reload());
 
-  chrome.storage.local.clear(function() {
-    var error = chrome.runtime.lastError;
-    if (error) {
-        console.error(error);
-    }
-});
+    chrome.storage.local.clear(function() {
+      var error = chrome.runtime.lastError;
+      if (error) {
+          console.error(error);
+      }
+  });
 
-})
+  })
+}
 
 
 
@@ -155,12 +159,15 @@ if (window.location.href.indexOf("/all") > -1) {
 function Findproduct(){
     var Currentitem = $(".protect").html()
     var Currentcolor = $("button.selected").attr('data-style-name');
-    //var size = $('option:contains("Medium")').prop('selected', true)
+    //var size = 
 
-    chrome.storage.local.get(['product', 'color'], function(result) {
+    chrome.storage.local.get(['product', 'color', 'size'], function(result) {
 
         if(Currentitem.includes(result.product) && Currentcolor == result.color){
-            var run = false;          
+            var run = false;       
+            $('option').filter(function() { 
+              return ($(this).text() == result.size); //To select Blue
+              }).prop('selected', true);   
             //chrome.runtime.sendMessage("Found Item: "+ Currentitem);
 
             if($("input.button").val() == "add to cart"){
@@ -170,9 +177,11 @@ function Findproduct(){
               //chrome.runtime.sendMessage("Added to cart");
               
              if(run==true){
-              chrome.runtime.sendMessage("Added to cart: \n"+ "------------------------------ \n"+ "Item: " + Currentitem + "\n" + "Color:" + Currentcolor);
+              chrome.runtime.sendMessage("Added to cart: \n"+ "------------------------------ \n"+ "Item: " + Currentitem + "\n" + "Color:" + Currentcolor + "\n" + "Size:" + result.size);
               
               setTimeout(checkout, 1000)
+
+
              }
           }
           
@@ -203,6 +212,8 @@ function Findproduct(){
 
 }
 
+setTimeout(Checkoutform, 2000)
+
 function checkout(){
     $(".button.checkout")[0].click()
 }
@@ -210,5 +221,7 @@ function checkout(){
 function Checkoutform(){
   if (window.location.href.indexOf("/checkout") > -1) {
     $('#order_terms').attr('checked',true)
+
+    $("#checkout_form").submit()
   }
 }
