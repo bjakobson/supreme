@@ -221,7 +221,7 @@ function checkout(){
 function Checkoutform(){
   if (window.location.href.indexOf("/checkout") > -1) {
     $('#order_terms').attr('checked',true)
+    $(".button")[0].click()
 
-    $("#checkout_form").submit()
   }
 }
